@@ -3,14 +3,16 @@ public class Nilai{
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int UTS, UAS, AVERAGE;
+        int Pancasila4, Daspro4, Bing4, AVERAGE;
 
-        System.out.print("Masukkan nilai UTS : ");
-        UTS = sc.nextInt();
-        System.out.print("Masukkan nilai UAS : ");
-        UAS = sc.nextInt();
+        System.out.print("Masukkan nilai Pancasila : ");
+        Pancasila4 = sc.nextInt();
+        System.out.print("Masukkan nilai Dasar pemrograman : ");
+        Daspro4 = sc.nextInt();
+        System.out.println("Masukkan nilai Bahasa Inggris");
+        Bing4 = sc.nextInt();
 
-        AVERAGE = (UAS+UTS)/2;
+        AVERAGE = (Daspro4+Pancasila4)/2;
         System.out.println("Nilai rerata : "+ AVERAGE);
 
         if (AVERAGE>80&&AVERAGE<=100){
